@@ -18,9 +18,10 @@ body{background:var(--bg);color:#24305e;margin:0;line-height:1.45}
 .site-header nav a{padding:.35rem .6rem;border-radius:.25rem}
 .site-header nav a.active{background:var(--brand);color:#fff}
 .logo {
-    height: 30px;
+    height: 40px;
     width: auto;
 }
+
 
 
 /* mobile menu */
