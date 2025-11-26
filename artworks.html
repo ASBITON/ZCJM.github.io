@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Artworks</title>
+  <meta name="description" content="Gallery of artworks — browse by category, view details, and see artist credits." />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- header (same as index) -->
+  <header class="site-header shadow-sm">
+    <div class="container d-flex align-items-center justify-content-between py-2">
+      <a href="index.html" class="brand">ArtCatalog</a>
+      <nav class="d-none d-md-flex gap-3 align-items-center">
+        <a href="index.html">Home</a>
+        <a href="artworks.html" class="active">Artworks</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button id="nav-toggle" class="nav-toggle d-md-none" aria-label="Open menu">☰</button>
+    </div>
+    <div id="mobile-menu" class="mobile-menu d-md-none">
+      <a href="index.html">Home</a>
+      <a href="artworks.html">Artworks</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <main class="container my-4">
+    <section>
+      <h1>Artworks</h1>
+      <p class="lead">Browse by category</p>
+
+      <div class="row g-3 mt-3">
+        <!-- Repeat cards — each must include alt text and credit -->
+        <article class="col-12 col-md-6 col-lg-4 card">
+          <img src="https://images.unsplash.com/photo-1526318472351-c75fcf070e0c?q=80&w=1200&auto=format&fit=crop" alt="Sunlit Portrait — Jane Doe" class="card-img-top" />
+          <div class="card-body">
+            <h3>Sunlit Portrait</h3>
+            <p class="small">Jane Doe — Oil on canvas</p>
+            <p class="text-muted small">Credit: Photo of artwork by Jane Doe (original artist).</p>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-6 col-lg-4 card">
+          <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop" alt="Chromatic Flow — John Smith" class="card-img-top" />
+          <div class="card-body">
+            <h3>Chromatic Flow</h3>
+            <p class="small">John Smith — Digital</p>
+            <p class="text-muted small">Credit: John Smith.</p>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-6 col-lg-4 card">
+          <img src="https://images.unsplash.com/photo-1549880338-65ddcdfd017b?q=80&w=1200&auto=format&fit=crop" alt="Quiet Valley — A. Rivera" class="card-img-top" />
+          <div class="card-body">
+            <h3>Quiet Valley</h3>
+            <p class="small">A. Rivera — Watercolor</p>
+            <p class="text-muted small">Credit: A. Rivera.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer py-3 bg-dark text-white">
+    <div class="container d-flex justify-content-between">
+      <div>© <span id="year-2"></span> ArtCatalog</div>
+      <div class="small">Credits: Unsplash sample images used. Replace with original art & credits when available.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

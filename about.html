@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About</title>
+  <meta name="description" content="About ArtCatalog: mission, design principles, artist partnerships." />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header shadow-sm">
+    <div class="container d-flex align-items-center justify-content-between py-2">
+      <a href="index.html" class="brand">ArtCatalog</a>
+      <nav class="d-none d-md-flex gap-3 align-items-center">
+        <a href="index.html">Home</a>
+        <a href="artworks.html">Artworks</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button id="nav-toggle" class="nav-toggle d-md-none" aria-label="Open menu">☰</button>
+    </div>
+    <div id="mobile-menu" class="mobile-menu d-md-none">
+      <a href="index.html">Home</a>
+      <a href="artworks.html">Artworks</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <main class="container my-4">
+    <section>
+      <h1>About ArtCatalog</h1>
+      <p class="lead">We curate and showcase artwork from emerging and established artists.</p>
+
+      <section class="design-principles mt-3">
+        <h2>Design Principles</h2>
+        <ul>
+          <li><strong>Contrast:</strong> Clear typographic and color contrast so artworks stand out.</li>
+          <li><strong>Alignment:</strong> Grid layout for consistency across cards and images.</li>
+          <li><strong>Repetition:</strong> Repeated UI patterns (cards, spacing) for predictability.</li>
+          <li><strong>Proximity:</strong> Related items placed together (title + credit + CTA).</li>
+        </ul>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer py-3 bg-dark text-white">
+    <div class="container d-flex justify-content-between">
+      <div>© <span id="year-3"></span> ArtCatalog</div>
+      <div class="small">Contact and credits on the contact page.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
