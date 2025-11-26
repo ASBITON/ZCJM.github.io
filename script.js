@@ -24,17 +24,17 @@ const year = new Date().getFullYear();
     const now = new Date();
     const hour = now.getHours();
     let greet = 'Welcome';
-    if (hour < 12) greet = 'Good morning';
-    else if (hour < 18) greet = 'Good afternoon';
-    else greet = 'Good evening';
-    if (g) g.textContent = `${greet}, welcome to ZCJM'S Art Portfolio!`;
+    if (hour < 12) greet = 'Good morning!';
+    else if (hour < 18) greet = 'Good afternoon!';
+    else greet = 'Good evening!';
+    if (g) g.textContent = `${greet} Welcome to ZCJM's Art Portfolio!`;
     if (dt) dt.textContent = now.toLocaleString();
   }
   update();
-  setInterval(update, 1000*60); // update every minute
+  setInterval(update, 1000*60);
 })();
 
-// Contact form demo - no server: simple validation & friendly message
+
 const contactForm = document.getElementById('contact-form');
 if (contactForm){
   contactForm.addEventListener('submit', e=>{

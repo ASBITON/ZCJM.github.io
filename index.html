@@ -11,12 +11,9 @@
 <body>
   <header class="site-header shadow-sm">
     <div class="container d-flex align-items-center justify-content-between py-2">
-      <a href="index.html" class="brand">ArtCatalog</a>
+      <img src="ZCJMlogo.jpg" class="logo" alt="ZCJM Logo" />
       <nav id="main-nav" class="d-none d-md-flex gap-3 align-items-center">
         <a href="index.html">Home</a>
-        <a href="artworks.html">Artworks</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
         <a href="signup.html" class="btn btn-outline-primary btn-sm">Sign up</a>
         <a href="login.html" class="btn btn-primary btn-sm">Log in</a>
       </nav>
@@ -26,9 +23,6 @@
 
     <div id="mobile-menu" class="mobile-menu d-md-none">
       <a href="index.html">Home</a>
-      <a href="artworks.html">Artworks</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
       <a href="signup.html">Sign up</a>
       <a href="login.html">Log in</a>
     </div>
@@ -36,41 +30,10 @@
 
   <main class="container my-4">
     <section class="hero p-4 rounded-3 text-center">
-      <h1 id="greeting">Welcome to ArtCatalog</h1>
-      <p id="datetime" class="small"></p>
-      <p class="lead">Discover the latest collections and community favorites.</p>
-    </section>
+      <h1 id="greeting">Welcome to ZCJM's Art Portfolio</h1>
+      <p class="lead">Your curated space for creative expression.</p>
 
-    <section class="latest mt-4">
-      <h2>Latest & Most Viewed</h2>
-      <div class="row g-3 mt-2">
-        <article class="col-12 col-md-4 card">
-          <img src="https://images.unsplash.com/photo-1526318472351-c75fcf070e0c?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=1" alt="Oil painting of a woman - by Jane Doe (example image)" class="card-img-top" />
-          <div class="card-body">
-            <h3 class="card-title">Sunlit Portrait</h3>
-            <p class="card-text">By Jane Doe — Oil on canvas. Most viewed this week.</p>
-            <a href="artworks.html" class="btn btn-sm btn-outline-secondary">View details</a>
-          </div>
-        </article>
-
-        <article class="col-12 col-md-4 card">
-          <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=2" alt="Abstract colorful artwork - by John Smith (example image)" class="card-img-top" />
-          <div class="card-body">
-            <h3 class="card-title">Chromatic Flow</h3>
-            <p class="card-text">By John Smith — Digital piece. Editor's pick.</p>
-            <a href="artworks.html" class="btn btn-sm btn-outline-secondary">View details</a>
-          </div>
-        </article>
-
-        <article class="col-12 col-md-4 card">
-          <img src="https://images.unsplash.com/photo-1549880338-65ddcdfd017b?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=3" alt="Landscape watercolor - by A. Rivera (example image)" class="card-img-top" />
-          <div class="card-body">
-            <h3 class="card-title">Quiet Valley</h3>
-            <p class="card-text">By A. Rivera — Watercolor. New arrival.</p>
-            <a href="artworks.html" class="btn btn-sm btn-outline-secondary">View details</a>
-          </div>
-        </article>
-      </div>
+      <a href="artworks.html" class="btn btn-primary btn-lg mt-3">View Art Gallery</a>
     </section>
 
     <section class="callout my-4 p-3 rounded-3 bg-light">
@@ -78,13 +41,6 @@
       <p>Want to comment on an artwork? <a href="signup.html">Sign up</a> to join the conversation.</p>
     </section>
   </main>
-
-  <footer class="site-footer py-3 bg-dark text-white">
-    <div class="container d-flex justify-content-between">
-      <div>© <span id="year"></span> ArtCatalog</div>
-      <div class="small">Images: Unsplash (sample). Artist credits present in each artwork's detail.</div>
-    </div>
-  </footer>
 
   <script src="script.js"></script>
 </body>
