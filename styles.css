@@ -17,6 +17,11 @@ body{background:var(--bg);color:#222;margin:0;line-height:1.45}
 .site-header a{color:#222;text-decoration:none}
 .site-header nav a{padding:.35rem .6rem;border-radius:.25rem}
 .site-header nav a.active{background:var(--brand);color:#fff}
+.logo {
+    height: 60px;
+    width: auto;
+}
+
 
 /* mobile menu */
 .nav-toggle{background:transparent;border:0;font-size:1.25rem}
