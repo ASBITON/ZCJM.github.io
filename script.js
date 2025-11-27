@@ -6,7 +6,6 @@
     if (!mobile) return;
     mobile.style.display = mobile.style.display === 'flex' ? 'none' : 'flex';
   });
-});
 
 // Set year fields
 const year = new Date().getFullYear();
@@ -14,6 +13,7 @@ const year = new Date().getFullYear();
   const el = document.getElementById(id);
   if (el) el.textContent = year;
 });
+
 
 // Greeting  & live date
 (function dateTimeGreeting(){
