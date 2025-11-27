@@ -18,10 +18,6 @@ body{background:var(--bg);color:#222;margin:0;line-height:1.45}
 .site-header nav a{padding:.35rem .6rem;border-radius:.25rem}
 .site-header nav a.active{background:var(--brand);color:#fff}
 
-.logo {
-  max-width: 100px;
-  height: auto;
-}
 
 
 
