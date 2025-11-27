@@ -24,6 +24,8 @@ width: auto;        /* scales width automatically */
 height: auto;       /* maintains aspect ratio */
 }
 
+
+
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
 .logo {
